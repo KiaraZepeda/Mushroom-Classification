@@ -18,13 +18,23 @@ The main objective of this project is to build and compare two classification mo
 ### Data Preprocessing:
 The dataset was reduced to five genuses, and each was randomly capped at 500 images for balance and manageability.
 
+![Image Aspect Ratio Distribution](ImageAspectRatio.jpg)
+
 ### Model Development:
 
 -**Non-Supervised Learning Model**:
 -*K-Means Clustering*: K-Means is a clustering algorithm was used to groups data points into clusters based on their similarity. 
 
+![K-Means Clustering of Genus Images](K-MeansClustering.jpg)
+
+![K-Means Clustering](Clustering.jpg)
+
+![Image Clusters](ClusterDistribution.jpg)
+
 -**Supervised (or Self-Supervised) Learning Models**:
+
 -*Convolutional Neural Networks (CNNs)*: CNNs were utilized for image-like feature extraction from structured data.
+
 -*Deep Neural Networks (DNNs)*: A multi-layer neural network was used to learn complex patterns in the data and predict the correct class label.
 
 ### Model Evaluation:
@@ -38,10 +48,23 @@ The performance of the models was assessed on a test dataset to evaluate their a
 - Test Accuracy: 0.3480  
 - AUC: 0.68
 
+![CNN ROC Curve](CnnRoc.jpg)
+
+![CNN](CNN.jpg)
+
+![CNN Accuracy](CNNAccuracy.jpg)
+
 ### DNN
 - Test Loss: 1.6045  
 - Test Accuracy: 0.2440  
 - AUC: 0.54
+
+![DNN ROC Curve](DnnRoc.jpg)
+
+![DNN](DNN.jpg)
+
+![DNN Accuracy](DNNAccuracy.jpg)
+
 
 CNN outperformed DNN in both accuracy and AUC, which aligns with expectations for image data. 
 
