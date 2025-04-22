@@ -23,7 +23,7 @@ The dataset was reduced to five genuses, and each was randomly capped at 500 ima
 ### Model Development:
 
 -**Non-Supervised Learning Model**:
--*K-Means Clustering*: K-Means is a clustering algorithm was used to groups data points into clusters based on their similarity. 
+-*K-Means Clustering*: K-Means is a clustering algorithm used to groups data points into clusters based on their similarity. 
 
 ![K-Means Clustering of Genus Images](K-MeansClustering.jpg)
 
